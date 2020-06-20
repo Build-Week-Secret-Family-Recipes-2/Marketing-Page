@@ -6,13 +6,18 @@ nav {
     align-items: center;
     cursor: default;
     margin-bottom: 5px;
+}   
+@media (max-width: @phone){
+    nav {
+        .flexbox-column;
+        margin-right: 10px;
+    }
 }
-
-nav a {
-    display: inline;
-    font-weight: 700;
-    font-size: 20px;
-    align-items: baseline;
+    nav a {
+        display: inline;
+        font-weight: 700;
+        font-size: 20px;
+        align-items: baseline;
 }
 
 .logo {

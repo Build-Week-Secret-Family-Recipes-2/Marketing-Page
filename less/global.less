@@ -10,7 +10,7 @@ body {
   color: #888;
   font-weight: 300;
   font-size: 20pt;
-  padding-top: 3em;
+  padding-top: 1em;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #3e3e3e;
@@ -32,6 +32,12 @@ h2 {
   text-transform: uppercase;
   
 }
+@media (max-width: @phone){
+  h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
 h3 {
   font-size: 1.2em;
   letter-spacing: -0.015em;
@@ -39,11 +45,24 @@ h3 {
   margin-top: 20px;
 
 }
+@media (max-width: @phone){
+  h3 {
+    font-size: 1em;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 h4 {
   font-size: 2rem;
   padding-top: 20px;
 }
-
+@media (max-width: @phone){
+  h4 {
+    font-size: 25px;
+    width: 80%;
+    line-height: 28px;
+    margin: 0;
+}
 #wrapper {
   text-align: center;
   width: 100%;
@@ -55,27 +74,45 @@ h4 {
   justify-content: space-evenly;
   margin: 0 auto;
 }
+@media (max-width: @phone){
+  .flex-container {
+    .flexbox-column;
+    width: 80%;
+    margin-right: 20px;
+  }
+}
 
 .project-container {
   margin: 0 auto;
   width: 25%;
   align-items: center;
 }
-  
+@media (max-width: @phone){
+  .project-container {
+    margin: 0 auto;
+  }
+}
+
 img {
   .box-image;
   align-items: center;
   margin-top: 10px;
   height: 40vh;
-  width: 25vw
+  width: 25vw;
 }
-  
+@media (max-width: @phone){
+  img {
+    .box-image;
+    width: 50vw;
+  }
+}
+
 p {
   line-height: 1.5em;
   width: 100%;
   margin: 0 auto;
 }
-  
+
 .container {
   max-width: 800px;
   width: 100%;
