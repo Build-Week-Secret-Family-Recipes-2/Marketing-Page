@@ -271,7 +271,7 @@ nav a {
   margin: 0 auto;
 }
 .hero-image {
-  background-image: url(../img/photoMain.png);
+  background-image: url("../img/photoMain.png");
   height: 70vh;
   width: 100vw;
   position: relative;
@@ -283,7 +283,7 @@ nav a {
   text-align: center;
   position: absolute;
   top: 30%;
-  padding-left: 20%;
+  padding-left: 10%;
   color: #FFFFFF;
 }
 .hero-text h2 {
