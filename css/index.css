@@ -30,7 +30,6 @@
   margin-right: 40px;
   margin-left: 30px;
   margin-bottom: 40px;
-  position: absolute;
 }
 .button-mixin:hover {
   background-color: #30d3e6;
@@ -441,7 +440,6 @@ nav a {
   margin-right: 40px;
   margin-left: 30px;
   margin-bottom: 40px;
-  position: absolute;
 }
 .btn:hover {
   background-color: #30d3e6;
