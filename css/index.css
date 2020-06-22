@@ -244,23 +244,24 @@ p {
   margin: 0 auto;
 }
 .feature-container {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
   .feature-container {
-    width: 80%;
+    width: 100%;
   }
 }
 .feature-container h2 {
   width: 100%;
-  margin: 0 auto;
   padding-bottom: 30px;
-  padding-left: 36%;
+  padding-left: 35%;
 }
 @media (max-width: 500px) {
   .feature-container h2 {
     width: 100%;
+    padding-bottom: 30px;
+    padding-left: 10%;
   }
 }
 .feature-container h3 {
@@ -383,7 +384,7 @@ nav a {
 }
 @media (max-width: 500px) {
   .hero-image {
-    height: 73vh;
+    height: 80vh;
   }
 }
 .hero-text {
@@ -416,13 +417,13 @@ nav a {
   margin: 0 auto;
   padding-top: 20px;
   font-size: 30px;
-  width: 70%;
+  width: 60%;
   line-height: 45px;
 }
 @media (max-width: 500px) {
   .hero-text p {
     font-size: 20px;
-    width: 100%;
+    width: 80%;
     line-height: 30px;
   }
 }
