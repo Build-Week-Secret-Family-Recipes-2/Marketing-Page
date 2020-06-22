@@ -51,9 +51,7 @@ h3 {
 @media (max-width: @phone){
   h3 {
     font-size: 1em;
-    width: 100%;
-    margin: 0 auto;
-  }
+}
 }
 h4 {
   font-size: 2rem;
@@ -77,37 +75,38 @@ p {
 }
 .feature-container {
   width: 100%;
-  padding-bottom: 50px;
+  margin: 0 auto;
+}
+@media (max-width: @phone){
+  .feature-container {
+    width: 80%;
+  }
 }
   .feature-container h2{
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
-    padding-left: 20%;
     padding-bottom: 30px;
   }
-  @media (max-width: @phone){
-    .feature-container h2{
-      width: 100%;
-      margin: 0 auto;
-      padding-right: 50%;
-      padding-bottom: 10px;
-    }
+@media (max-width: @phone){
+  .feature-container h2{
+    width: 100%;
   }
+}
   .feature-container h3{
     width: 100%;
-    margin: 0 auto;
+  
   }
+@media (max-width: @phone){
+  .feature-container h3{
+    width: 100%;
+  }
+}
 
 .flex-container {
   .flexbox-row;
   width: 97%;
   justify-content: space-evenly;
   margin: 0 auto;
-}
-  h2{
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
 }
 
 @media (max-width: @phone){
@@ -117,7 +116,6 @@ p {
     margin-right: 20px;
   }
 }
-
 .project-container {
   margin: 0 auto;
   width: 25%;
@@ -139,15 +137,31 @@ p {
   .project-container img {
     width: 70vw;
     height: 50vh;
-    margin-left: 70px;
+    margin-left: 80px;
     margin-top: 40px;
     margin-bottom: 40px;
   }
 }
+  .project-container h3{
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
   .project-container p {
-    line-height: 1.5em;
+    line-height: 1em;
     width: 100%;
     margin: 0 auto;
     font-size: 25px;
+    padding: 5px;
+}
+@media (max-width: @phone){
+  .project-container p {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 100%;
+
+  }
 }
 
