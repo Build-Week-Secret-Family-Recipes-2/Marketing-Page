@@ -253,13 +253,13 @@ p {
   }
 }
 .feature-container h2 {
-  width: 100%;
+  width: 80%;
   padding-bottom: 30px;
-  padding-left: 45%;
+  padding-left: 32%;
 }
 @media (max-width: 500px) {
   .feature-container h2 {
-    width: 100%;
+    width: 50%;
     padding-bottom: 30px;
     padding-left: 10%;
   }
