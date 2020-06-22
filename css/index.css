@@ -30,6 +30,7 @@
   margin-right: 40px;
   margin-left: 30px;
   margin-bottom: 40px;
+  position: absolute;
 }
 .button-mixin:hover {
   background-color: #30d3e6;
@@ -253,9 +254,10 @@ p {
   }
 }
 .feature-container h2 {
-  width: 30%;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 30px;
+  padding-left: 36%;
 }
 @media (max-width: 500px) {
   .feature-container h2 {
@@ -439,6 +441,7 @@ nav a {
   margin-right: 40px;
   margin-left: 30px;
   margin-bottom: 40px;
+  position: absolute;
 }
 .btn:hover {
   background-color: #30d3e6;
