@@ -20,17 +20,23 @@
 }
 .hero-text {
   text-align: center;
-  margin-top: 10%;
   color: @hero-text;
+  padding-top: 10%;
   width: 100%;
 }
+@media (max-width: @tablet){
+  .hero-text {
+    padding-top: 30px;
+
+}
+} 
+
 @media (max-width: @phone){
   .hero-text {
       line-height: 50px;
-      margin-top: 5%;
+      padding-top: 25px;
   }  
-}
-            
+}            
   .hero-text h2 {
     font-size: 60px;
     letter-spacing: 4px;
@@ -38,10 +44,17 @@
     width: 100%;
     color: @hero-text;
   }
+  @media (max-width: @tablet){
+    .hero-text h2 {
+      font-size: 40px;
+      letter-spacing: 5px;
+      width: 80%;
+    }
+  }
   @media (max-width: @phone){
       .hero-text h2 {
           font-size: 40px;
-          padding-top: 10px;
+          padding-top: 15px;
       }
   }
   .hero-text p {
@@ -50,6 +63,14 @@
     font-size: 30px;
     width: 60%;
     line-height: 45px;
+  }
+
+  @media (max-width: @tablet){
+    .hero-text p{
+      width: 90%;
+      font-size: 20px;
+      line-height: 30px;
+    }
   }
   @media (max-width: @phone){
       .hero-text p {
@@ -63,6 +84,12 @@
     .button-mixin;
   }
 
+  @media (max-width: @tablet){
+    .btn{
+      font-size: 15px;
+      padding: 10px;
+    }
+  }
   @media (max-width: @phone){
       .btn {
           display: none;
