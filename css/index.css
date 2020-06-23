@@ -261,7 +261,7 @@ p {
 }
 @media (max-width: 500px) {
   .feature-container {
-    width: 100%;
+    width: 90%;
   }
 }
 .feature-container h2 {
@@ -276,7 +276,7 @@ p {
 }
 @media (max-width: 500px) {
   .feature-container h2 {
-    width: 100%;
+    width: 80%;
     padding-bottom: 5px;
   }
 }
