@@ -551,7 +551,7 @@ nav a {
 @media (max-width: 800px) {
   .inner-size {
     padding: 0;
-    width: 768px;
+    width: 100%;
   }
 }
 .teams h1 {
