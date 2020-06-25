@@ -270,15 +270,14 @@ p {
 }
 @media (max-width: 800px) {
   .feature-container h2 {
-    width: 100%;
+    width: 80%;
     padding-left: 24%;
     font-size: 40px;
   }
 }
 @media (max-width: 500px) {
   .feature-container h2 {
-    width: 80%;
-    padding-bottom: 5px;
+    width: 70%;
   }
 }
 .feature-container h3 {
@@ -327,7 +326,7 @@ p {
 }
 @media (max-width: 800px) {
   .project-container img {
-    height: 20vh;
+    height: 33vh;
   }
 }
 @media (max-width: 500px) {
