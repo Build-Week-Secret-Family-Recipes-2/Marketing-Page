@@ -19,19 +19,29 @@ nav {
         font-size: 20px;
         align-items: baseline;
         text-decoration: none;
+        justify-items: space-evenly;
 }
     .logo {
-        width: 100%;
+        width: 50%;
     }
+@media (max-width: @tablet){
+    .logo {
+        width: 60%;
+    }
+}
     .logo h4{
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 30px;
         font-weight: 500;
+        padding-left: 2em;
     }
 @media (max-width: @tablet){
     .logo h4{
         font-weight: 400;
+        width: 100%;
+        padding-left: .5em;
+        padding-bottom: 4px;
     }
 }
 @media (max-width: @phone){

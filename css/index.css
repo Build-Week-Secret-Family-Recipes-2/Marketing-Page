@@ -8,9 +8,6 @@
   flex-direction: column;
   line-height: 30px;
 }
-.display-mixin {
-  display: inline-block;
-}
 .box-image {
   border-radius: 15px;
   box-shadow: 4px 4px 20px black;
@@ -206,8 +203,10 @@ h2 {
   letter-spacing: -0.015em;
   padding-top: 30px;
 }
-@media (max-width: 800px) h2 {
-  padding-top: -20px;
+@media (max-width: 800px) {
+  h2 {
+    padding-top: -20px;
+  }
 }
 @media (max-width: 500px) {
   h2 {
@@ -259,6 +258,11 @@ p {
   width: 80%;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .feature-container {
+    width: 100%;
+  }
+}
 @media (max-width: 500px) {
   .feature-container {
     width: 100%;
@@ -266,14 +270,8 @@ p {
 }
 .feature-container h2 {
   width: 50%;
-  padding-left: 31%;
-}
-@media (max-width: 800px) {
-  .feature-container h2 {
-    width: 80%;
-    padding-left: 24%;
-    font-size: 40px;
-  }
+  margin: 0 auto;
+  padding-left: 2em;
 }
 @media (max-width: 500px) {
   .feature-container h2 {
@@ -335,7 +333,7 @@ p {
   .project-container img {
     width: 70vw;
     height: 45vh;
-    margin-left: 75px;
+    margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -387,20 +385,34 @@ nav {
   }
 }
 nav a {
-  display: inline;
+  display: inline-block;
   font-weight: 700;
   font-size: 20px;
   align-items: baseline;
+  text-decoration: none;
+  justify-items: space-evenly;
+}
+.logo {
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .logo {
+    width: 60%;
+  }
 }
 .logo h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 30px;
   font-weight: 500;
+  padding-left: 2em;
 }
 @media (max-width: 800px) {
   .logo h4 {
     font-weight: 400;
+    width: 100%;
+    padding-left: 0.5em;
+    padding-bottom: 4px;
   }
 }
 @media (max-width: 500px) {
@@ -466,7 +478,7 @@ nav a {
 @media (max-width: 500px) {
   .hero-text h2 {
     font-size: 35px;
-    padding-top: 20px;
+    padding-top: 15px;
     width: 90%;
     line-height: 45px;
   }
@@ -522,21 +534,6 @@ nav a {
     display: none;
   }
 }
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  cursor: default;
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-nav a {
-  display: inline;
-  font-weight: 500;
-  font-size: 20px;
-  align-items: baseline;
-}
 .teams {
   background: #fafafa;
   text-align: center;
@@ -553,13 +550,12 @@ nav a {
 @media (max-width: 800px) {
   .inner-size {
     padding: 0;
-    width: 100%;
+    width: 768px;
   }
 }
 .teams h1 {
   font-size: 50px;
   text-transform: uppercase;
-  display: inline-block;
   border-bottom: 4px solid;
   padding-bottom: 10px;
   padding-top: 20px;
