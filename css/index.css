@@ -271,7 +271,8 @@ p {
 @media (max-width: 800px) {
   .feature-container h2 {
     width: 100%;
-    padding-left: 8%;
+    padding-left: 24%;
+    font-size: 40px;
   }
 }
 @media (max-width: 500px) {
@@ -422,12 +423,12 @@ nav a {
 }
 @media (max-width: 800px) {
   .hero-image {
-    height: 35vh;
+    height: 65vh;
   }
 }
 @media (max-width: 500px) {
   .hero-image {
-    height: 40vh;
+    height: 60vh;
   }
 }
 .hero-text {
