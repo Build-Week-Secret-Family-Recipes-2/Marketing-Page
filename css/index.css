@@ -328,7 +328,7 @@ p {
 }
 @media (max-width: 800px) {
   .project-container img {
-    height: 33vh;
+    height: 30vh;
   }
 }
 @media (max-width: 500px) {
@@ -424,12 +424,12 @@ nav a {
 }
 @media (max-width: 800px) {
   .hero-image {
-    height: 65vh;
+    height: 48vh;
   }
 }
 @media (max-width: 500px) {
   .hero-image {
-    height: 60vh;
+    height: 45vh;
   }
 }
 .hero-text {
