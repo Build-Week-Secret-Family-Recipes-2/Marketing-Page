@@ -447,7 +447,7 @@ nav a {
 }
 @media (max-width: 500px) {
   .hero-image {
-    height: 65vh;
+    height: 45vh;
   }
 }
 .hero-text {
@@ -533,11 +533,6 @@ nav a {
   .btn {
     font-size: 15px;
     padding: 10px;
-  }
-}
-@media (max-width: 500px) {
-  .btn {
-    display: none;
   }
 }
 .teams {
