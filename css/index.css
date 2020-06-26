@@ -14,8 +14,8 @@
   border: 1px solid gray;
 }
 .button-mixin {
-  background-color: #d3f4ff;
-  color: black;
+  background-color: #f56278;
+  color: white;
   font-size: 1.7rem;
   font-weight: bold;
   border-radius: 15px;
@@ -29,7 +29,7 @@
   margin-bottom: 40px;
 }
 .button-mixin:hover {
-  background-color: #30d3e6;
+  background-color: #f7dc98;
   color: #b80303;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -511,8 +511,8 @@ nav a {
   }
 }
 .btn {
-  background-color: #d3f4ff;
-  color: black;
+  background-color: #f56278;
+  color: white;
   font-size: 1.7rem;
   font-weight: bold;
   border-radius: 15px;
@@ -526,7 +526,7 @@ nav a {
   margin-bottom: 40px;
 }
 .btn:hover {
-  background-color: #30d3e6;
+  background-color: #f7dc98;
   color: #b80303;
 }
 @media (max-width: 800px) {
@@ -609,7 +609,7 @@ nav a {
   }
 }
 #footer-wrapper {
-  background-color: #d3f4ff;
+  background-color: #f56278;
   text-align: center;
   width: 100%;
   margin-top: 25px;
@@ -617,4 +617,7 @@ nav a {
 .footer-container {
   display: block;
   width: 100%;
+}
+.footer-container h5 {
+  color: white;
 }
