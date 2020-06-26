@@ -544,7 +544,7 @@ nav a {
   background: #fafafa;
   text-align: center;
   margin-top: 20px;
-  border-top: 1pt solid lightblue;
+  border-top: 1pt solid #f56278;
 }
 .inner-size {
   max-width: 100%;
