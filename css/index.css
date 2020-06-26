@@ -584,7 +584,7 @@ nav a {
 }
 @media (max-width: 800px) {
   .leads {
-    padding-left: 1em;
+    padding-left: 0;
   }
 }
 .p-profile {
