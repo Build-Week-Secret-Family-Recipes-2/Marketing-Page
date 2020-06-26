@@ -205,7 +205,7 @@ h2 {
 }
 @media (max-width: 800px) {
   h2 {
-    padding-top: -20px;
+    font-size: 1.5em;
   }
 }
 @media (max-width: 500px) {
@@ -277,7 +277,7 @@ p {
   .feature-container h2 {
     width: 70%;
     padding-top: 30px;
-    padding-left: 2em;
+    padding-left: 0.5em;
   }
 }
 .feature-container h3 {
@@ -332,8 +332,8 @@ p {
 @media (max-width: 500px) {
   .project-container img {
     width: 70vw;
-    height: 45vh;
-    margin-left: 50px;
+    height: 55vh;
+    margin-left: 78px;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -400,6 +400,11 @@ nav a {
     width: 60%;
   }
 }
+@media (max-width: 500px) {
+  .logo {
+    width: 88%;
+  }
+}
 .logo h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -425,6 +430,7 @@ nav a {
   display: flex;
   width: 100%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 .hero-image {
   background-image: url("../img/Big-Image.jpg");
@@ -436,12 +442,12 @@ nav a {
 }
 @media (max-width: 800px) {
   .hero-image {
-    height: 48vh;
+    height: 68vh;
   }
 }
 @media (max-width: 500px) {
   .hero-image {
-    height: 45vh;
+    height: 65vh;
   }
 }
 .hero-text {
