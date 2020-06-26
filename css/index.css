@@ -442,7 +442,7 @@ nav a {
 }
 @media (max-width: 800px) {
   .hero-image {
-    height: 68vh;
+    height: 50vh;
   }
 }
 @media (max-width: 500px) {
