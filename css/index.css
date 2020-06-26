@@ -535,6 +535,11 @@ nav a {
     padding: 10px;
   }
 }
+@media (max-width: 500px) {
+  .btn {
+    display: none;
+  }
+}
 .teams {
   background: #fafafa;
   text-align: center;
