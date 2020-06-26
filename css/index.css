@@ -579,14 +579,6 @@ nav a {
     padding-left: 1em;
   }
 }
-.leads {
-  padding-left: 13em;
-}
-@media (max-width: 800px) {
-  .leads {
-    padding-left: 0;
-  }
-}
 .p-profile {
   float: left;
   width: calc 25%;
