@@ -326,7 +326,7 @@ p {
 }
 @media (max-width: 800px) {
   .project-container img {
-    height: 30vh;
+    height: 28vh;
   }
 }
 @media (max-width: 500px) {
