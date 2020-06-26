@@ -331,8 +331,8 @@ p {
 }
 @media (max-width: 500px) {
   .project-container img {
-    width: 65vw;
-    height: 40vh;
+    width: 60vw;
+    height: 35vh;
     margin-left: 78px;
     margin-top: 30px;
     margin-bottom: 20px;
