@@ -386,7 +386,7 @@ nav {
 }
 nav a {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   align-items: baseline;
   text-decoration: none;
@@ -547,7 +547,7 @@ nav a {
   border-top: 1pt solid lightblue;
 }
 .inner-size {
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;
   padding: 40px;
   color: #333;
@@ -556,13 +556,12 @@ nav a {
 @media (max-width: 800px) {
   .inner-size {
     padding: 0;
-    width: 768px;
+    width: 100%;
   }
 }
 .teams h1 {
   font-size: 50px;
   text-transform: uppercase;
-  border-bottom: 4px solid;
   padding-bottom: 10px;
   padding-top: 20px;
 }
