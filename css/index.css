@@ -571,6 +571,22 @@ nav a {
     padding-top: 50px;
   }
 }
+.people {
+  padding-left: 3em;
+}
+@media (max-width: 800px) {
+  .people {
+    padding-left: 1em;
+  }
+}
+.leads {
+  padding-left: 13em;
+}
+@media (max-width: 800px) {
+  .leads {
+    padding-left: 1em;
+  }
+}
 .p-profile {
   float: left;
   width: calc 25%;
@@ -592,7 +608,7 @@ nav a {
   .p-profile img {
     width: 280px;
     height: 280px;
-    margin-left: 50px;
+    margin-left: 40px;
   }
 }
 .name {
