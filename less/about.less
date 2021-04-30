@@ -1,0 +1,78 @@
+
+.teams{
+    background: #fafafa;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1pt solid @border;
+}
+    .inner-size{
+        max-width: 100%;
+        margin: auto;
+        padding: 40px;
+        color: #333;
+        overflow: hidden;
+    }
+    @media (max-width: @tablet){
+        .inner-size{
+            padding: 0;
+            width: 100%;
+        }
+    }
+        .teams h1{
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            padding-top: 20px;
+        
+        }
+        @media (max-width: @tablet){
+            .teams h1{
+                font-size: 40px;
+                padding-top: 50px;
+            }
+        }
+
+.people {
+    padding-left: 3em;
+}
+@media (max-width: @tablet){
+    .people {
+        padding-left: 1em;
+    }
+}
+.p-profile {
+    float: left;
+    width: calc (100% /4);
+    overflow: hidden;
+    padding: 30px 0;
+    margin-left: 5%;
+    justify-content: center;
+    transition: 0.4s;
+}
+    .p-profile img{
+        .box-image;
+        width: 180px;
+        height: 180px;
+        margin: 0 70px;
+    }
+
+    @media (max-width: @phone){
+        .p-profile img{
+            width: 280px;
+            height: 280px;
+            margin-left: 40px;
+        }
+    }
+    .name{
+        margin: 16px 0;
+    }
+    .des{
+        font-style: italic;
+        color: #3498db;
+        font-size: 18px;
+    }
+@media (max-width: @phone){
+    .p-profile{
+        width: 100%;
+    }
+}
